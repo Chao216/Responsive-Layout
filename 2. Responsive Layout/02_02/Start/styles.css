@@ -8,3 +8,15 @@ img {
 *,*:before,*:after {
 	box-sizing: inherit;
 }
+
+@media (min-width :1000px) {
+	body {
+		background-color: aqua;
+	}
+}
+
+@media (max-width:600px) {
+	body {
+		background-color: gold;
+	}
+}
