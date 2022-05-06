@@ -10,12 +10,14 @@ img {
 header h1 {
 	margin-top: 0;
 	padding-top: 50px;
+	order: 2;
 }
 h1 span {
 	font-size: .8em;
 }
 header {
 	text-align: center;
+	display: flex;
 }
 .content, .links {
 	padding: 0 10px;
@@ -24,4 +26,19 @@ header {
 .links {
 	background-color: #E9F9E1;
 	border: 1px solid gray;
+}
+
+.image1 {
+	order: 1;
+}
+
+.image2 {
+	order: 3;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	flex: 1 1 30vw;
 }
